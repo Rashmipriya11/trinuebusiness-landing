@@ -1,0 +1,30 @@
+ul.triangle li a{
+    content:'';
+    width:0px;
+    height:0px;
+    left:50%;
+    top:-20px;
+    margin-left:-20px;
+    border-bottom:40px solid rgba(0,0,0,.8);
+    border-left:40px solid transparent;
+    border-right:40px solid transparent;
+}
+ul.menu-list li a{
+    position:absolute;
+    color:red !important;
+    top:55px;
+    margin-right:auto;
+    margin-left:auto;    
+}
+li.first a{ 
+   right:559px;
+}
+li.sec a{ 
+   right:510px;
+}
+li.third a{ 
+   right:500px;
+}
+li.fourth a{ 
+   right:480px;
+}

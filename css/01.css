@@ -1,0 +1,127 @@
+body{
+	background-image:url('../images/samsung-abstract-wallpaper-1.jpg'); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+form{
+	margin-left:auto;
+	margin-right:auto;
+	width:398px; 
+}
+input{
+	margin-left:40px;
+	padding:8px 0px;  
+	border-radius:4px; 
+	border:solid 1px #ccc; 
+	width:280px;
+}
+select{
+	margin-left:30px; 
+	padding:8px 0px;
+	border-radius:4px; 
+	border:solid 1px #ccc;
+	text-align:left;
+	width:280px;  
+}
+input.cit{
+	margin-left:56px;
+}
+input.sub{
+	padding:8px 0px; 
+	margin-left:130px;
+	margin-top:20px; 
+	background-color:#223860; 
+	color:#fff; 
+	border:solid 1px #223860;
+	width:100px;
+}
+input.rst{
+	padding:8px 0px;
+	margin-left:20px;
+	margin-top:20px;  
+	background-color:#223860;
+	color:#fff;  
+	border:solid 1px #223860; 
+	width:100px;
+}
+b{
+	font-size:20px; 
+}
+img.logo{
+	width:15%;
+	margin-left:60px; 
+}
+.footer-copy{
+	right:0;
+    position:absolute; 
+    font-size:30px;
+    margin-right:100px; 
+}
+.footer-copy a{
+	text-decoration:none; 
+	padding:4px 0; 
+}
+@media(max-width:767px){
+	form{
+		width:300px;
+	}
+	input{
+	margin-left:40px;
+	padding:8px 0px;  
+	border-radius:4px; 
+	border:solid 1px #ccc; 
+	width:200px;
+}
+select{
+	margin-left:30px; 
+	padding:8px 0px;
+	border-radius:4px; 
+	border:solid 1px #ccc;
+	text-align:left;
+	width:200px;  
+}
+input.cit{
+	margin-left:56px;
+}
+input.sub{
+	padding:8px 0px; 
+	margin-top:20px; 
+	background-color:#223860; 
+	color:#fff; 
+	border:solid 1px #223860;
+	width:80px;
+	margin-left:153px; 
+}
+input.rst{
+	padding:8px 0px;
+	margin-left:153px;
+	background-color:#223860;
+	color:#fff;  
+	border:solid 1px #223860; 
+	width:80px;
+}
+b{
+	font-size:20px; 
+}
+img.logo{
+	width:40%;
+	margin-left:20px; 
+}
+.footer-copy{
+	right:0;
+    position:absolute; 
+    font-size:30px;
+    margin-right:40px;
+    bottom:40px; 
+}
+.footer-copy a{
+	text-decoration:none; 
+	padding:4px 0;
+	color:#fff;  
+}
+}
